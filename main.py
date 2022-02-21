@@ -8,23 +8,23 @@ from aiogram import Bot, Dispatcher, executor, types
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from aiogram.utils.helper import Helper, HelperMode, ListItem
 
-token = '1370565976:AAF2HinpZ0BXFTbxQD8wyYk5zIR0'
+token = '5136030130:AAFSLCkyNvaMBxL4BBwrg3Yi9gUphcKv4nU'
 
 bot = Bot(token=token)
 
 
 dp = Dispatcher(bot)
 
-phone = '+79964027985' #телефон qiwi
+phone = '+380996359391' #телефон qiwi
 
-token = '542e80103661bf5b09c51f32cf' #qiwi токен
+token = '925873ddb6dc821a57a20baaad6293fd' #qiwi токен
 
-publick_key = '48e7qUxn9T7RyYE1MVZswX1FRSbE6iyCj2gCRwwF3Dnh5XrasNTx3BGPiMsyXQFNKQhvukniQG8RTVhYm3iPxEHmr6v64nMtQ44M3rAfq68pHNpqPbSxecnrWjoWmQHmwpikbnU6GWweNUQUM1cyXNx1WZgaAjoa2LJ3V2eVrhZkJAqHpWk9uMgqr897r' #публичный токен
+publick_key = 'eyJ2ZXJzaW9uIjoiUDJQIiwiZGF0YSI6eyJwYXlpbl9tZXJjaGFudF9zaXRlX3VpZCI6ImlhN2VtcC0wMCIsInVzZXJfaWQiOiIzODA5OTYzNTkzOTEiLCJzZWNyZXQiOiI1ZDIxYjUwMzczYmExZTA3NWE2NjhhYTE5NjFiY2ZiZjY2MTMwYmZkMjUyM2EwOTcxNDAwNGIxNTBhNDFiZDc0In19' #публичный токен
 
-amount = 1000 # цена за подписку
+amount = 50 # цена за подписку
 
 
-admins = [82] #добавь сюда свой ID
+admins = [2070045449] #добавь сюда свой ID
 
 
 profile_button = types.KeyboardButton('Профиль🔮')
